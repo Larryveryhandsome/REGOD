@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>黎明小巢其衞 | 買賣/租賃雙旗艦社群邀請</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#059669', // 買賣群代表色 (綠)
+                        secondary: '#2563EB', // 租屋群代表色 (藍)
+                        dark: '#1F2937',
+                        accent: '#F59E0B'
+                    },
+                    animation: {
+                        'bounce-slow': 'bounce 3s infinite',
+                        'pulse-fast': 'pulse 1.5s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+                        'float': 'float 6s ease-in-out infinite',
+                    },
+                    keyframes: {
+                        float: {
+                            '0%, 100%': { transform: 'translateY(0)' },
+                            '50%': { transform: 'translateY(-10px)' },
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&display=swap');
+        body {
+            font-family: 'Noto Sans TC', sans-serif;
+            scroll-behavior: smooth;
+        }
+        .hero-bg {
+            background-image: linear-gradient(rgba(31, 41, 55, 0.75), rgba(31, 41, 55, 0.85)), url('https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+        .gradient-text-ai {
+            background: linear-gradient(to right, #10B981, #3B82F6, #8B5CF6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .group-card:hover .group-icon {
+            transform: scale(1.1) rotate(5deg);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 antialiased selection:bg-primary selection:text-white">
+
+    <!-- Hero Section -->
+    <header class="hero-bg min-h-[90vh] flex items-center justify-center text-center px-4 relative overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-b from-transparent to-gray-900/95"></div>
+        
+        <div class="relative z-10 max-w-5xl mx-auto pt-20 pb-16 w-full">
+            <div class="inline-flex items-center gap-2 mb-6 px-5 py-2 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-white text-sm font-medium tracking-wide shadow-lg">
+                <span class="relative flex h-3 w-3">
+                    <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+                    <span class="relative inline-flex rounded-full h-3 w-3 bg-green-500"></span>
+                </span>
+                全新升級！24H AI 智能助理即將上線
+            </div>
+            
+            <h1 class="text-4xl md:text-6xl font-black text-white mb-6 leading-tight drop-shadow-lg">
+                買賣找好件・租屋自己 PO<br>
+                <span class="text-accent">黎明小巢其衞</span> 雙旗艦社群
+            </h1>
+            
+            <p class="text-lg md:text-2xl text-gray-300 mb-12 font-light max-w-3xl mx-auto drop-shadow-md">
+                為您量身打造的專屬房產圈。無論是買賣投資，還是招租找房，真人助理團隊 ＋ 24H 智能管家為您全天候把關！
+            </p>
+            
+            <!-- Dual CTA Buttons -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-3xl mx-auto">
+                <!-- Buy/Sell Group CTA -->
+                <div class="bg-white/10 backdrop-blur-sm border border-white/20 p-6 rounded-3xl hover:bg-white/15 transition-all duration-300 animate-float" style="animation-delay: 0s;">
+                    <div class="text-primary bg-green-100 w-16 h-16 rounded-full flex items-center justify-center text-3xl mx-auto mb-4 shadow-lg">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-white mb-2">分享不動產-親友群</h3>
+                    <p class="text-green-100 text-sm mb-6">要買賣找好物件請進！掌握第一手資訊</p>
+                    <a href="https://line.me/ti/g2/wWIcowt8ErHfiYC7ovKUeZf1VDAA2-tYxlhPXA?utm_source=invitation&utm_medium=link_copy&utm_campaign=default" target="_blank" class="block w-full py-3.5 text-base font-bold text-white bg-primary rounded-xl shadow-lg hover:bg-green-700 transition-colors">
+                        <i class="fab fa-line mr-2"></i> 點我加入買賣群
+                    </a>
+                </div>
+
+                <!-- Rent Group CTA -->
+                <div class="bg-white/10 backdrop-blur-sm border border-white/20 p-6 rounded-3xl hover:bg-white/15 transition-all duration-300 animate-float" style="animation-delay: 1s;">
+                    <div class="text-secondary bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center text-3xl mx-auto mb-4 shadow-lg">
+                        <i class="fas fa-key"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-white mb-2">專屬租屋群</h3>
+                    <p class="text-blue-100 text-sm mb-6">有房出租自己PO！滿滿誠意租客等您</p>
+                    <a href="https://line.me/ti/g2/JqYH87sJRh1IVf5vJwsvAnaKHXKVngYV7Qe8zQ?utm_source=invitation&utm_medium=link_copy&utm_campaign=default" target="_blank" class="block w-full py-3.5 text-base font-bold text-white bg-secondary rounded-xl shadow-lg hover:bg-blue-700 transition-colors">
+                        <i class="fab fa-line mr-2"></i> 點我加入租屋群
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-white/50 animate-bounce-slow">
+            <i class="fas fa-chevron-down text-2xl"></i>
+        </div>
+    </header>
+
+    <!-- Core Value Section -->
+    <section class="py-24 px-4 max-w-7xl mx-auto">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4 text-dark">滿足您不動產的所有需求</h2>
+            <div class="w-24 h-1 bg-gradient-to-r from-primary to-secondary mx-auto rounded-full mb-6"></div>
+            <p class="text-gray-600 max-w-2xl mx-auto text-lg">依照您的需求，我們細分了兩大專業群組，並提供獨家的一條龍加值服務。</p>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <!-- Buy/Sell Value -->
+            <div class="group-card bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 relative overflow-hidden">
+                <div class="absolute top-0 right-0 w-32 h-32 bg-green-50 rounded-bl-full -z-10"></div>
+                <div class="group-icon w-16 h-16 bg-green-100 rounded-2xl flex items-center justify-center text-primary text-3xl mb-6 transition-transform duration-300 shadow-sm">
+                    <i class="fas fa-handshake"></i>
+                </div>
+                <h3 class="text-2xl font-bold mb-3 text-dark">買賣投資・精準媒合</h3>
+                <div class="inline-block px-3 py-1 bg-green-100 text-green-800 text-xs font-bold rounded-full mb-4">分享不動產-親友群</div>
+                <p class="text-gray-600 leading-relaxed">
+                    第一手接收精選物件與隱藏版好房！提供深入的產權調查、建設發展查詢，專人（呆、燕、珮）即時安排帶看，讓您買得安心、賣得快速。
+                </p>
+            </div>
+
+            <!-- Rent Value -->
+            <div class="group-card bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 relative overflow-hidden">
+                <div class="absolute top-0 right-0 w-32 h-32 bg-blue-50 rounded-bl-full -z-10"></div>
+                <div class="group-icon w-16 h-16 bg-blue-100 rounded-2xl flex items-center justify-center text-secondary text-3xl mb-6 transition-transform duration-300 shadow-sm">
+                    <i class="fas fa-bullhorn"></i>
+                </div>
+                <h3 class="text-2xl font-bold mb-3 text-dark">房東自租・快速尋客</h3>
+                <div class="inline-block px-3 py-1 bg-blue-100 text-blue-800 text-xs font-bold rounded-full mb-4">專屬租屋群</div>
+                <p class="text-gray-600 leading-relaxed">
+                    有房要出租？在這裡您可以<b>自己 PO 文招租</b>，群內有大量正在找房的準租客！省去繁瑣手續，直接與需求方對接，極速滿租。
+                </p>
+            </div>
+
+            <!-- Extra Service Value -->
+            <div class="group-card bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 relative overflow-hidden lg:mt-0 md:mt-8">
+                <div class="absolute top-0 right-0 w-32 h-32 bg-orange-50 rounded-bl-full -z-10"></div>
+                <div class="group-icon w-16 h-16 bg-orange-100 rounded-2xl flex items-center justify-center text-accent text-3xl mb-6 transition-transform duration-300 shadow-sm">
+                    <i class="fas fa-truck-moving"></i>
+                </div>
+                <h3 class="text-2xl font-bold mb-3 text-dark">加值服務・一條龍搞定</h3>
+                <div class="inline-block px-3 py-1 bg-orange-100 text-orange-800 text-xs font-bold rounded-full mb-4">獨家專屬服務</div>
+                <p class="text-gray-600 leading-relaxed">
+                    我們不僅幫您找房找客，更提供周邊支援！舉凡<b>租屋退租清潔、專業搬家、人力支援</b>，任何因租屋/買房衍生的需求，群內都能為您解決。
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI Robot Feature Section (The Big Highlight) -->
+    <section class="py-24 bg-dark relative overflow-hidden border-t border-gray-800">
+        <!-- Abstract Background shapes -->
+        <div class="absolute top-0 right-0 -mr-20 -mt-20 w-96 h-96 rounded-full bg-primary opacity-20 blur-3xl animate-pulse-fast"></div>
+        <div class="absolute bottom-0 left-0 -ml-20 -mb-20 w-72 h-72 rounded-full bg-blue-500 opacity-20 blur-3xl animate-pulse-fast" style="animation-delay: 1s;"></div>
+
+        <div class="max-w-7xl mx-auto px-4 relative z-10">
+            <div class="flex flex-col lg:flex-row items-center gap-16">
+                <!-- Text Content -->
+                <div class="lg:w-1/2 text-white">
+                    <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 border border-white/20 mb-6 backdrop-blur-sm">
+                        <i class="fas fa-robot text-accent"></i>
+                        <span class="text-sm font-medium tracking-wide">業界首創・服務升級</span>
+                    </div>
+                    
+                    <h2 class="text-4xl md:text-5xl font-black mb-6 leading-tight">
+                        您的 24H 不打烊<br>
+                        <span class="gradient-text-ai">AI 智能房產管家</span>
+                    </h2>
+                    
+                    <p class="text-xl text-gray-300 mb-8 font-light leading-relaxed">
+                        靈感與需求總是不分晝夜。為了給您最高效的體驗，社群全面導入全天候服務的 AI 機器人，真人團隊與 AI 聯手，打造無縫接軌的頂級服務！
+                    </p>
+                    
+                    <ul class="space-y-6">
+                        <li class="flex items-start bg-white/5 p-4 rounded-2xl border border-white/10 hover:bg-white/10 transition-colors">
+                            <div class="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-green-400 to-primary rounded-full flex items-center justify-center text-white shadow-lg">
+                                <i class="fas fa-bolt text-xl"></i>
+                            </div>
+                            <div class="ml-4">
+                                <h4 class="text-xl font-bold text-white mb-1">秒讀秒回，告別等待</h4>
+                                <p class="text-gray-400">半夜滑到喜歡的物件想詢問？AI 助理 24 小時在線，隨時為您解答基本資訊、租金/售價等疑問。</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start bg-white/5 p-4 rounded-2xl border border-white/10 hover:bg-white/10 transition-colors">
+                            <div class="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-blue-400 to-secondary rounded-full flex items-center justify-center text-white shadow-lg">
+                                <i class="fas fa-calendar-check text-xl"></i>
+                            </div>
+                            <div class="ml-4">
+                                <h4 class="text-xl font-bold text-white mb-1">智慧分流，無縫接軌</h4>
+                                <p class="text-gray-400">無論是看屋預約或派工清潔，AI 記錄後會自動同步給多位專業助理（呆、燕、珮、Sunny等）接手處理。</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Visual Mockup -->
+                <div class="lg:w-1/2 w-full max-w-sm mx-auto relative">
+                    <div class="absolute inset-0 bg-gradient-to-r from-primary to-blue-500 transform skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl opacity-40 blur-lg"></div>
+                    <div class="relative bg-white rounded-[2rem] shadow-2xl border-8 border-gray-900 overflow-hidden">
+                        <!-- Phone Header -->
+                        <div class="bg-gray-900 text-white px-5 py-2 flex items-center justify-between text-xs font-medium">
+                            <span>09:41</span>
+                            <div class="flex space-x-2">
+                                <i class="fas fa-signal"></i>
+                                <i class="fas fa-wifi"></i>
+                                <i class="fas fa-battery-full"></i>
+                            </div>
+                        </div>
+                        <!-- LINE Chat Header -->
+                        <div class="bg-[#1D2B36] px-4 py-3 flex items-center border-b border-gray-800 shadow-sm text-white">
+                            <i class="fas fa-chevron-left text-gray-300 mr-4 text-lg"></i>
+                            <div class="font-bold text-base flex-1 truncate">黎明小巢其衞分享不動產</div>
+                            <i class="fas fa-search text-gray-300 mr-4"></i>
+                            <i class="fas fa-bars text-gray-300"></i>
+                        </div>
+                        <!-- Chat Body -->
+                        <div class="bg-[#749BBB] p-4 h-[420px] overflow-y-auto space-y-4">
+                            <!-- System Msg -->
+                            <div class="text-center">
+                                <span class="bg-black/20 text-white text-xs px-3 py-1 rounded-full backdrop-blur-sm">2026.03.14 星期六</span>
+                            </div>
+                            <!-- User Message -->
+                            <div class="flex justify-end">
+                                <div class="bg-[#85E249] text-gray-800 p-3 rounded-2xl rounded-tr-none max-w-[85%] shadow-sm text-sm">
+                                    請問女中路這間是固定停車位嗎？或抽籤？想約明天下午看房。
+                                </div>
+                            </div>
+                            <!-- AI Reply -->
+                            <div class="flex items-start gap-2">
+                                <div class="w-9 h-9 bg-white rounded-full flex items-center justify-center flex-shrink-0 shadow-md border-2 border-primary">
+                                    <i class="fas fa-robot text-primary text-sm"></i>
+                                </div>
+                                <div class="bg-white text-gray-800 p-3 rounded-2xl rounded-tl-none max-w-[85%] shadow-sm text-sm">
+                                    您好！我是 24H 智能小幫手🤖<br><br>
+                                    女中路這間是**固定車位**喔！已為您記錄看屋需求。<br><br>
+                                    稍後真人助理（呆 / 燕 / 珮）會盡快與您確認明日下午的確切時間，請稍候！🏠
+                                </div>
+                            </div>
+                             <!-- Assistant Reply (Simulating human taking over) -->
+                            <div class="flex items-start gap-2 mt-2">
+                                <div class="w-9 h-9 bg-pink-100 rounded-full flex items-center justify-center flex-shrink-0 shadow-md">
+                                    <span class="text-pink-600 font-bold text-xs">珮</span>
+                                </div>
+                                <div class="bg-white text-gray-800 p-3 rounded-2xl rounded-tl-none max-w-[85%] shadow-sm text-sm">
+                                    @小九 這邊跟您約在女中路二段跟中山路二段交叉口的711，明天下午四點可以嗎？
+                                </div>
+                            </div>
+                             <!-- User Message 2 -->
+                             <div class="flex justify-end">
+                                <div class="bg-[#85E249] text-gray-800 p-3 rounded-2xl rounded-tr-none max-w-[85%] shadow-sm text-sm">
+                                    可以 感謝👍
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Host Info Section -->
+    <section class="py-20 px-4 bg-gray-50">
+        <div class="max-w-4xl mx-auto text-center">
+            <div class="w-24 h-24 bg-white rounded-full mx-auto mb-6 flex items-center justify-center overflow-hidden border-4 border-gray-200 shadow-xl relative">
+                <i class="fas fa-user-tie text-4xl text-gray-400"></i>
+                <div class="absolute bottom-0 right-0 w-6 h-6 bg-green-500 rounded-full border-2 border-white flex items-center justify-center">
+                    <i class="fas fa-check text-white text-xs"></i>
+                </div>
+            </div>
+            <h2 class="text-3xl font-bold text-dark mb-2">店長 林其衞 誠摯邀請</h2>
+            <p class="text-primary font-medium mb-8">黎明小巢 | 您最可靠的不動產顧問</p>
+            
+            <div class="bg-white rounded-3xl p-8 md:p-10 text-left relative shadow-lg border border-gray-100">
+                <i class="fas fa-quote-left text-5xl text-gray-100 absolute top-6 left-6"></i>
+                <p class="text-gray-600 text-lg leading-relaxed relative z-10 px-4 md:px-8">
+                    「長時間在外跑業務，為了不怠慢每一位群友的需求，我有幸請到多位優秀的助理（呆、燕、珮、Sunny 等）來協助大家處理看屋、清潔與搬家等庶務。<br><br>
+                    現在，為了讓服務更上一層樓，我們全面引進了 <b>AI 智能機器人</b>！未來無論您在哪個群組，我們與 AI 都將聯手為您提供最即時、最專業的服務。期待在社群裡與您相見！」
+                </p>
+                <div class="mt-8 text-right px-4 md:px-8">
+                    <span class="font-bold text-gray-800 text-lg">— 版主 林其衞</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bottom CTA Section (Split Options) -->
+    <section class="py-20 bg-dark relative overflow-hidden">
+        <!-- Decorative Background -->
+        <div class="absolute inset-0 opacity-5" style="background-image: radial-gradient(circle at 2px 2px, white 1px, transparent 0); background-size: 32px 32px;"></div>
+        
+        <div class="max-w-5xl mx-auto px-4 text-center relative z-10">
+            <h2 class="text-3xl md:text-5xl font-bold text-white mb-6">準備好體驗全新的房產服務了嗎？</h2>
+            <p class="text-xl text-gray-300 mb-12">依照您的需求，選擇適合的社群加入，完全免費，歡迎隨時提問交流！</p>
+            
+            <div class="flex flex-col md:flex-row justify-center gap-6">
+                <!-- Buy CTA -->
+                <a href="https://line.me/ti/g2/wWIcowt8ErHfiYC7ovKUeZf1VDAA2-tYxlhPXA?utm_source=invitation&utm_medium=link_copy&utm_campaign=default" target="_blank" class="group flex items-center justify-center px-8 py-5 text-lg font-bold text-primary bg-white rounded-2xl shadow-xl transition-all hover:bg-green-50 hover:scale-105">
+                    <div class="bg-green-100 w-10 h-10 rounded-full flex items-center justify-center mr-4 group-hover:bg-green-200 transition-colors">
+                        <i class="fas fa-home text-primary"></i>
+                    </div>
+                    加入 買賣・親友群
+                </a>
+                
+                <!-- Rent CTA -->
+                <a href="https://line.me/ti/g2/JqYH87sJRh1IVf5vJwsvAnaKHXKVngYV7Qe8zQ?utm_source=invitation&utm_medium=link_copy&utm_campaign=default" target="_blank" class="group flex items-center justify-center px-8 py-5 text-lg font-bold text-white bg-secondary rounded-2xl shadow-xl transition-all hover:bg-blue-700 hover:scale-105 border border-blue-500">
+                    <div class="bg-blue-500 w-10 h-10 rounded-full flex items-center justify-center mr-4 group-hover:bg-blue-400 transition-colors">
+                        <i class="fas fa-key text-white"></i>
+                    </div>
+                    加入 租賃・租屋群
+                </a>
+            </div>
+            
+            <p class="mt-10 text-gray-500 text-sm flex items-center justify-center">
+                <i class="fas fa-shield-alt mr-2"></i> 兩個群組皆有專人與 AI 管理，資訊安全有保障
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black py-8">
+        <div class="max-w-7xl mx-auto px-4 text-center flex flex-col items-center">
+            <div class="text-xl font-bold text-white mb-2 tracking-wider">黎明小巢其衞分享不動產</div>
+            <p class="text-gray-500 text-sm">© 2024 林其衞不動產顧問團隊. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
